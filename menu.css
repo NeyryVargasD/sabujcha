@@ -32,4 +32,40 @@ ul {
   .top-nav li.active a {
     background-color: #4CAF50;
   }
+
+/*  CSS for the container product */
+.product-container {
+   display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 300px;
+    position: relative;
+  }
   
+.product-image {
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+.product-image:hover {
+    transform: scale(1.1);
+  }
+  
+.product-info {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+.product-container:hover .product-info {
+    opacity: 1;
+  }
+   

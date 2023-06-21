@@ -1,0 +1,19 @@
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* CSS for the logo */
+  .logo {
+    width: 100px; 
+    height: 100px;
+  }
+  
+  /* CSS for the background image */
+  .header-bg {
+    background-image: url('Img/FONDITO.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
