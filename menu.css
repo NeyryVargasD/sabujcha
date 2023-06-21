@@ -63,9 +63,18 @@ ul {
     width: 100%;
     opacity: 0;
     transition: opacity 0.3s ease;
+    display: flexbox;
+    align-items: center;
   }
   
 .product-container:hover .product-info {
     opacity: 1;
   }
-   
+
+
+
+
+
+
+
+
