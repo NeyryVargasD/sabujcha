@@ -1,37 +1,42 @@
-/* Reset default styles for list */
-.ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Style for the top navigation */
+/* Style for the top navigation */
   .top-nav {
-    background-color: #333;
+    background-color: #000;
     overflow: hidden;
   }
   
   /* Style for the navigation links */
   .top-nav li {
-    float: left;
+    float: right;
   }
   
   .top-nav li a {
-    display: block;
+    display: inline-block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: underline;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
   }
-  
-  .top-nav li a:hover {
-    background-color: #111;
-  }
-  
-  /* Optional: Add a class to highlight the active link */
-  .top-nav li.active a {
-    background-color: #4CAF50;
-  }
+
+
+/* Organization Div */
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1f;
+}
+
+.image-row {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 100%;
+}
+
+.text-row {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}  
+
+
 
 /*  CSS for the container product */
 .product-container {
@@ -76,8 +81,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: left;
+  text-align: left;
 }
 
 .main-image {
@@ -86,8 +91,8 @@
 
 .carousel {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 
 .carousel-image {
@@ -122,3 +127,4 @@
   max-height: 30px;
   max-width: 100px;
 }
+
