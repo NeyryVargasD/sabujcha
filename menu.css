@@ -1,21 +1,28 @@
+body {
+  background-image: url("Img/fondo.jpeg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* Style for the top navigation */
-  .top-nav {
-    background-color: #000;
-    overflow: hidden;
-  }
+.top-nav {
+  background-color: #000;
+  overflow: hidden;
+}
   
-  /* Style for the navigation links */
-  .top-nav li {
-    float: right;
-  }
+/* Style for the navigation links */
+.top-nav li {
+  float: right;
+}
   
-  .top-nav li a {
-    display: inline-block;
-    color: white;
-    text-align: left;
-    padding: 10px 10px;
-    text-decoration: none;
-  }
+.top-nav li a {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none;
+}
 
 
 /* Organization Div */
@@ -102,6 +109,7 @@
 
 .description {
   margin-top: 20px;
+  color: #fff;
 }
 
 /* FOOTER BAR */
