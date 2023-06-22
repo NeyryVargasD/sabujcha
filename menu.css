@@ -71,10 +71,54 @@
     opacity: 1;
   }
 
+/* principal product */
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+.main-image {
+  margin-bottom: 20px;
+}
 
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.carousel-image {
+  max-width: 100px;
+  margin: 0 10px;
+}
 
+.description {
+  margin-top: 20px;
+}
 
+/* FOOTER BAR */
 
+.bottom-bar {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.logo-foot {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.logo-foot-img {
+  max-height: 30px;
+  max-width: 100px;
+}
