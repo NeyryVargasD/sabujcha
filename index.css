@@ -1,0 +1,63 @@
+.page{
+    padding: 10px;
+    align-items: center;
+  
+    
+}
+ 
+*{text-decoration: none;}
+
+.sec1{
+    
+    position: relative;
+    top: 20px;
+    word-spacing: 30px;
+    font-size: 12px;
+    
+    
+}
+
+.E1{
+    color: black;
+}
+
+
+.usd{
+    position: relative;
+    left: 1100px;
+    bottom: 40px;
+    font-size: 12px;
+    align-content: center;
+}
+
+
+
+.sec2{
+    position: relative;
+    left: 550px;
+    bottom: 15px;
+}
+
+.slider{
+    width: 50px;
+}
+
+.slider p {
+    position: absolute;
+    bottom:  40px;
+    left: 325px;
+    font-size: 50px;
+    text-align: center;
+}
+.slider a {
+    position: absolute;
+    bottom:  40px;
+    left: 600px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box1{
+    position: absolute;
+    margin: auto;
+}
