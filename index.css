@@ -60,6 +60,7 @@
     left: 550px;
     font-size: 30px;
     text-align: center;
+    text-decoration: underline;
 }
 
 .box1{
@@ -91,7 +92,7 @@
 }
 
 
-.product1{
+.product1 {
     grid-column-start:3;
     grid-column-end: 4;
     position: relative;
@@ -121,6 +122,10 @@
     color: #2C2E2D;
     background: #DFB0E8;
 }
+
+
+
+
 
 .product2{
     grid-column-start:5;
