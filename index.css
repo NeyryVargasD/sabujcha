@@ -219,7 +219,7 @@
     color: #2C2E2D;
     background: #DFB0E8;
 }
-/*------- box 2----*/
+/*_-------------*/
 .text {
     position: absolute;
     top:1700px ;
@@ -246,7 +246,7 @@
     color:  #2C2E2D;
    
 }
-
+/*------- box 2----*/
 .box2{
     position: absolute;
     top: 1900px;
@@ -514,7 +514,7 @@
     color: #2C2E2D;
     background: #DFB0E8;
 }
-
+/*-------------button-suscription------*/
 .suscription {
     position: absolute;
     width: 1500px;
