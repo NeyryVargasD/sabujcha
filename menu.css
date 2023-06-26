@@ -21,7 +21,6 @@
 body {
   background-image: url("Img/fondo.jpeg"); 
   background-size: cover;
-  background-position: absolute;
   background-repeat: repeat;
 }
 
@@ -55,6 +54,7 @@ body {
   margin-left: 30px;
   margin-top: 100px;
   margin-bottom: 20px;
+  display: flex;
 }
 
 .image img {
