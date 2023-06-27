@@ -17,12 +17,6 @@
   background-position: center;
 }
 
-/*bodyyyy*/
-body {
-  background-image: url("Img/fondo.jpeg"); 
-  background-size: cover;
-  background-repeat: repeat;
-}
 
 /* Style for the top navigation */
 .top-nav {
