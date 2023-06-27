@@ -1,22 +1,29 @@
 
-  
+ 
 *{
     margin: 0%;
     padding: 0%;
     box-sizing:border-box;
+    text-decoration: none;
 }
 body{
     overflow-x: hidden;
+  
  }
 
 .page{
-    padding:20px ;
+    
+padding:20px ;
     margin: auto;
-    align-items: center;
+    
+    
 }
- 
-*{text-decoration: none;}
+@media (max-width: 320px) {
+   .sec1{
+          grid-template: auto;
+   }
 
+  }
 .sec1{
     
     position: relative;
@@ -43,17 +50,26 @@ body{
     color: black;
 }
 
-
-.usd a{
-    position: relative;
-    left: 1100px;
-    bottom: 40px;
-    font-size: 12px;
-    
-    color: black;
+.usd {
+    display:grid ;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
 }
 
 
+.usd a{
+    
+    bottom: 40px;
+    font-size: 12px;
+    color: black;
+    grid-column-start: 7;
+}
+
+@media (max-width: 320px) {
+    .sec2{
+           grid-template: auto;
+    }
+ 
+   }
 
 .sec2{
     position: relative;
@@ -61,7 +77,15 @@ body{
     bottom: 15px;
     
 }
-
+@media (max-width: 320px) {
+    .slider{
+           grid-template: auto;
+    }
+    .slider p{
+        grid-template: auto;
+    }
+ 
+   }
 .slider{
     width: 1170px;
  
@@ -82,7 +106,13 @@ body{
     text-align: center;
     text-decoration: underline;
 }
-
+@media (max-width: 320px) {
+    .box1{
+           grid-template: 
+           "box1";
+    }
+ 
+   }
 .box1{
     border: 1px solid transparent;
     background: url(Imagenes/bg-1.jpg);
@@ -90,34 +120,50 @@ body{
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 700px;
     width: 1170px;
+    
 }
 /*--------containers----*/
 
 .text1{
     position: absolute;
-    top: 950px;
-    left: 350px;
+    top: 900px;
+    left: 380px;
     font-size: 20px;
     text-align: center;
-    align-items: center;
+    
+}
+
+.text1 p{
+    position: relative;
+    top: 40px;
 }
 
 .text1 h3{
-    position: absolute;
-    left: 120px;
+    position: relative;
+    top: 30px;
+    right: 0px;
     bottom: 70px;
     font-size: 40px;
     text-align: center;
-    align-items: center;
+    
 }
 
-
+@media (max-width: 320px) {
+    .product1{
+           grid-template: 
+           "product1";
+    }
+ 
+   }
 .product1 {
     grid-column-start:3;
     grid-column-end: 4;
     position: relative;
     top: 300px;
     color:#2C2E2D;
+}
+.product1 a {
+    color: black;
 }
 
 .product1 img{
@@ -129,7 +175,7 @@ body{
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#E8D5E5;
+    background:url(Imagenes/bg-1.jpg);
     color: gray;
     outline:none;
     cursor: pointer;
@@ -140,11 +186,17 @@ body{
 
 .product1 button:hover {
     color: #2C2E2D;
-    background: #DFB0E8;
+    background: #ECDFDB;
 }
 
 
-
+@media (max-width: 320px) {
+    .product2{
+           grid-template:
+           "product2";
+    }
+ 
+   }
 
 
 .product2{
@@ -158,6 +210,9 @@ body{
 .product2 img{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+.product2 a {
+    color: black;
+}
 
 
 .product2 button {
@@ -165,7 +220,7 @@ body{
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#E8D5E5;
+    background:url(Imagenes/bg-1.jpg);
     color: gray;
     outline:none;
     cursor: pointer;
@@ -175,7 +230,7 @@ body{
 
 .product2 button:hover {
     color: #2C2E2D;
-    background: #DFB0E8;
+    background: #ECDFDB;
 }
 
 
@@ -191,12 +246,16 @@ body{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.product3 a {
+    color: black;
+}
+
 .product3 button {
     position: relative;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#E8D5E5;
+    background:url(Imagenes/bg-1.jpg);
     color: gray;
     outline:none;
     cursor: pointer;
@@ -206,7 +265,7 @@ body{
 
 .product3 button:hover {
     color: #2C2E2D;
-    background: #DFB0E8;
+    background: #ECDFDB;
 }
 
 
@@ -222,12 +281,16 @@ body{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.product4 a {
+    color: black;
+}
+
 .product4 button {
     position: relative;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#E8D5E5;
+    background:url(Imagenes/bg-1.jpg);
     color: gray;
     outline:none;
     cursor: pointer;
@@ -237,7 +300,7 @@ body{
 
 .product4 button:hover {
     color: #2C2E2D;
-    background: #DFB0E8;
+    background: #ECDFDB;
 }
 /*_-------------*/
 .text {
@@ -271,9 +334,9 @@ body{
     position: absolute;
     top: 1700px;
     border: 1px solid transparent;
-    background: #E8D5E5;
+    background: #ECDFDB;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
     height: 1050px;
     width: 1170px;
 }
@@ -284,7 +347,7 @@ body{
     left: 350px;
     font-size: 20px;
     text-align: center;
-    align-items: center;
+    
 }
 
 .text2 h3{
@@ -293,7 +356,7 @@ body{
     bottom: 70px;
     font-size: 40px;
     text-align: center;
-    align-items: center;
+    
 }
 
 .product1-1{
@@ -307,23 +370,26 @@ body{
 .product1-1 img{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+.product1-1 a {
+    color: black;
+}
 
 .product1-1 button {
     position: relative;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#2C2E2D;
+    background:#ECDFDB;
     color: gray;
     outline:none;
     cursor: pointer;
-    letter-spacing: 1px;
+    
 }
 
 
 .product1-1 button:hover {
-    color: #2C2E2D;
-    background: #DFB0E8;
+    color:#ECDFDB;
+    background: #2C2E2D;
 }
 
 .product2-1{
@@ -338,12 +404,16 @@ body{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.product2-1 a {
+    color: black;
+}
+
 .product2-1 button {
     position: relative;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#2C2E2D;
+    background:#ECDFDB;
     color: gray;
     outline:none;
     cursor: pointer;
@@ -352,8 +422,8 @@ body{
 
 
 .product2-1 button:hover {
-    color: #2C2E2D;
-    background: #DFB0E8;
+    color: #ECDFDB;
+    background: #2C2E2D;
 }
 .product3-1{
     grid-column-start:7;
@@ -367,12 +437,16 @@ body{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.product3-1 a {
+    color: black;
+}
+
 .product3-1 button {
     position: relative;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#2C2E2D;
+    background:#ECDFDB;
     color: gray;
     outline:none;
     cursor: pointer;
@@ -381,8 +455,8 @@ body{
 
 
 .product3-1 button:hover {
-    color: #2C2E2D;
-    background: #DFB0E8;
+    color: #ECDFDB;
+    background: #2C2E2D;
 }
 
 .product4-1{
@@ -397,12 +471,16 @@ body{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.product4-1 a {
+    color: black;
+}
+
 .product4-1 button {
     position: relative;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#2C2E2D;
+    background:#ECDFDB;
     color: gray;
     outline:none;
     cursor: pointer;
@@ -411,8 +489,8 @@ body{
 
 
 .product4-1 button:hover {
-    color: #2C2E2D;
-    background: #DFB0E8;
+    color: #ECDFDB;
+    background: #2C2E2D;
 }
 
 .product5{
@@ -427,12 +505,16 @@ body{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.product5 a {
+    color: black;
+}
+
 .product5 button {
     position: relative;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#2C2E2D;
+    background:#ECDFDB;
     color: gray;
     outline:none;
     cursor: pointer;
@@ -441,8 +523,8 @@ body{
 
 
 .product5 button:hover {
-    color: #2C2E2D;
-    background: #DFB0E8;
+    color: #ECDFDB;
+    background: #2C2E2D;
 }
 
 .product6{
@@ -457,13 +539,16 @@ body{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.product6 a {
+    color: black;
+}
 
 .product6 button {
     position: relative;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#2C2E2D;
+    background:#ECDFDB;
     color: gray;
     outline:none;
     cursor: pointer;
@@ -472,8 +557,8 @@ body{
 
 
 .product6 button:hover {
-    color: #2C2E2D;
-    background: #DFB0E8;
+    color: #ECDFDB;
+    background: #2C2E2D;
 }
 .product7{
     grid-column-start:7;
@@ -487,12 +572,16 @@ body{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.product7 a {
+    color: black;
+}
+
 .product7 button {
     position: relative;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#2C2E2D;
+    background:#ECDFDB;
     color: gray;
     outline:none;
     cursor: pointer;
@@ -501,8 +590,8 @@ body{
 
 
 .product7 button:hover {
-    color: #2C2E2D;
-    background: #DFB0E8;
+    color: #ECDFDB;
+    background: #2C2E2D;
 }
 
 .product8{
@@ -517,12 +606,16 @@ body{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
+.product8 a {
+    color: black;
+}
+
 .product8 button {
     position: relative;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background:#2C2E2D;
+    background:#ECDFDB;
     color: gray;
     outline:none;
     cursor: pointer;
@@ -531,8 +624,8 @@ body{
 
 
 .product8 button:hover {
-    color: #2C2E2D;
-    background: #DFB0E8;
+    color: #ECDFDB;
+    background: #2C2E2D;
 }
 /*-------------button-suscription------*/
 .suscription {
@@ -586,7 +679,7 @@ body{
 
 .subs button:hover {
     color: #2C2E2D;
-    background: #DFB0E8;
+    background: #ECDFDB;
 }
 
 .Slider2 {
@@ -739,7 +832,7 @@ body{
     height: 400px;
     border: none;
     display: grid;
-    background:  #E8D5E5;
+    background: #ECDFDB;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     color:#2C2E2D;
 }
